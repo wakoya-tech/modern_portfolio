@@ -1,0 +1,15 @@
+{
+  "name": "port",
+  "version": "1.0.0",
+  "description": "Responsive portfolio website",
+  "main": "script.js",
+  "scripts": {
+    "sass": "sass --watch scss:port/css"
+
+  },
+  "author": "Wakoya Daba",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}
