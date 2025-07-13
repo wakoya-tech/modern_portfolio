@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "Responsive portfolio website",
   "main": "script.js",
-  "scripts": {
-    "sass": "sass --watch scss:port/css"
-
-  },
+ "scripts": {
+  "sass": "sass --watch ../scss:css"
+}
+,
   "author": "Wakoya Daba",
   "license": "MIT",
   "devDependencies": {
-    "sass": "^1.89.2"
+    "node-sass": "^1.89.2"
   }
 }
