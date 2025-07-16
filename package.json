@@ -8,6 +8,7 @@
     "sass": "sass --watch scss:css --style compressed",
     "sass:build": "sass scss:css --style compressed --no-source-map",
       "deploy": "gh-pages -d ."
+
   },
   "author": "Wakoya Daba",
   "license": "MIT",
