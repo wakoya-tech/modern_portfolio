@@ -1,0 +1,18 @@
+{
+  "name": "port",
+  "version": "1.0.0",
+  "description": "Responsive portfolio website",
+  "main": "script.js",
+  "homepage": "https://wakoya-tech.github.io/modern_portfolio",
+  "scripts": {
+    "sass": "sass --watch scss:css --style compressed",
+    "sass:build": "sass scss:css --style compressed --no-source-map",
+    "deploy": "gh-pages -d ."
+  },
+  "author": "Wakoya Daba",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "sass": "^1.89.2"
+  }
+}
