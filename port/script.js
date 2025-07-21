@@ -24,3 +24,11 @@ function toggleMenu(){
          showMenu=false;
     } 
 }
+// Change:
+if (window.location.hostname === 'wakoya-tech.github.io') {
+    link.href = '/modern_portfolio/' + link.getAttribute('href');
+  }
+  // To:
+  if (window.location.hostname === 'wakoya-tech.github.io') {
+    link.href = '/PORTFOLIO/' + link.getAttribute('href');
+  }
